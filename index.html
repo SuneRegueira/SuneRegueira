@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Min Hjemmeside</title>
+    <title>My website</title>
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -56,6 +56,31 @@
         .whatsapp-btn:hover {
             background-color: #1da851;
         }
+        .call-btn {
+            display: inline-block;
+            background-color: #8525d3;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .call-btn:hover {
+            background-color: #661da3;
+        }
+        .mail-btn {
+            display: inline-block;
+            background-color: #259fd3;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .mail-btn:hover {
+            background-color: #1d7da6;
     </style>
 </head>
 <body>
@@ -104,8 +129,18 @@
 
     <section>
         <h2>Kontakt</h2>
-        <a href="tel:+4530954371">Call me</a>
-        <a href="mailto:sune@baxit.dk">Send me an email</a>
+        <a class="call-btn"
+        href="tel:+4543144300"
+        target="_blank">
+            Call me
+        </a>
+
+        <a class="mail-btn"
+        href="mailto:sune@baxit.dk"
+        target="_blank">
+            Send me an email
+        </a>
+        
         <a class="whatsapp-btn"
         href="https://wa.me/4530954371"
         target="_blank">
